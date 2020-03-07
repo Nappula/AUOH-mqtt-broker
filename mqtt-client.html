@@ -5,8 +5,6 @@
 </head>
 <script> let options = { host: 'veoh-mqtt-broker.herokuapp.com', port: 443, protocol: 'wss' };
     
-
-    
     
     let client = mqtt.connect(options);
     client.on('connect', () => { console.log('connected'); });
